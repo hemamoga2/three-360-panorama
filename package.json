@@ -1,0 +1,26 @@
+{
+  "name": "create-es6-project",
+  "version": "1.0.0",
+  "description": "Babel / ES6 Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "client",
+    "js",
+    "es6",
+    "babel"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "three": "^0.87.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2"
+  }
+}
